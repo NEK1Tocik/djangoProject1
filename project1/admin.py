@@ -1,3 +1,4 @@
 from django.contrib import admin
+from project1.models import ModelNikita
 
-# Register your models here.
+admin.site.register(ModelNikita)
